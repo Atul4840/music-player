@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.container{
+    height: 70vh;
+    width: 30vw;
+    border: 2px solid black;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+}
+
+.play-section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+    
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+.item-list{
+    margin: 4px auto;
+    width: 70%;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.item-list:hover{
+   background-color: lightsalmon;
+}
